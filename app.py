@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "ZipGo Flask service running on port 5000"})
+    return jsonify({"message": "ZipGo Flask service running on port 12120"})
 
 @app.route("/health")
 def health():
